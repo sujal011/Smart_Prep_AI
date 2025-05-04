@@ -13,6 +13,7 @@ const RootLayout = async ({children}:{children:ReactNode}) => {
         <Link href={'/'} className='flex items-center gap-2'>
           <Image 
             src='/logo.svg'
+            style={{width:'auto'}}
             alt='logo'
             height={32}
             width={38}
